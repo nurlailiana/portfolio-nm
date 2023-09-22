@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="font.css" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<head>
+  <script src="https://kit.fontawesome.com/882f564e64.js" crossorigin="anonymous"></script>
+  <link href="https://db.onlinewebfonts.com/c/423f58b9fc607c2ccd71d1ab6bf42c30?family=CeraRoundPro-Regular" rel="stylesheet">
+</head>
+<style>
+html,body,h1,h2,h3,h4,h5,h6{font-family: "CeraRoundPro-Regular", Helvetica, Arial, sans-serif;}
+</style>
+<body class="bg-body">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4 w3-round">
+        <div class="w3-display-container">
+          <img src="foto profil.JPG" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2 style="color: #ac3b61; text-shadow: 2px 2px 5px #eee2dc; font-weight: bold;">Nurlailiana Mahmudah</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>S1 Pendidikan Komputer</p>
+          <p><i class="fa fa-duotone fa-house fa-fw w3-margin-right w3-large w3-text-teal"></i>Banjarmasin, Indonesia</p>
+          <p><a href="mailto:nurlailianam@gmail.com" style="color:#757575"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>nurlailianam@gmail.com</a></p>
+          <a href="https://wa.me/6281548876717"><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>081548876717</a>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <ul type="bullet">
+              <li>Microsoft Office (Word, Excel, Power Point)</li>
+              <li>Design and Editing (Canva)</li>
+              <li>Manajemen Data</li>
+              <li>Programming</li>
+              <li>Teamwork</li>
+              <li>Detail Oriented</li>
+            </ul>
+          <hr>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-teal"></i>Sertifikat</b></p>
+            <ul type="bullet">
+              <li><a onclick="msWord()" style="cursor:pointer">Microsoft Office Specialist (Word 2016)</a></li>
+              <li><a onclick="WebProg()" style="cursor:pointer">Web Programming Fundamentals</a></li>
+              <li><a onclick="msExcel()" style="cursor:pointer">Microsoft Excel Data Analysis</a></li>
+              <li><a onclick="Canva()" style="cursor:pointer">Canva Design</a></li>
+            </ul>
+          <p style="font-size: 10px;">*klik untuk membuka sertifikat</p>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)">Tentang Diri</span>
+        <span class="dot" onclick="currentSlide(2)">Pendidikan</span>
+        <span class="dot" onclick="currentSlide(3)">Pengalaman Kerja</span>
+        <span class="dot" onclick="currentSlide(4)">Pengalaman Organisasi</span>
+        <span class="dot" onclick="currentSlide(5)">Pengalaman Project</span>
+      </div>
+      <br>
+
+        <div class="w3-container w3-card w3-white w3-round w3-margin-bottom">
+
+          <div class="mySlides">
+            <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-id-card fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tentang Diri</h3>
+            <p>Saya Nurlailiana Mahmudah, S1 Pendidikan Komputer di Universitas Lambung Mangkurat tahun 2022. Memiliki minat berkarir di bidang pendidikan, pemrograman, dan administrasi dengan pengalaman sebagai teknisi lab. Selama kuliah memahami serta mengasah skill di bidang pendidikan dan ilmu komputer seperti programming untuk mengembangkan halaman web, dan aktif berorganisasi untuk mempelajari maupun memahami ilmu tentang administrasi.</p>
+            <hr>
+          </div>
+
+          <div class="mySlides">
+            <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-book-open-reader fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Pendidikan</h3>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Universitas Lambung Mangkurat</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2022</h6>
+              <p>S1 Pendidikan Komputer</p>
+              <p>IPK 3.13</p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>SMK Negeri 1 Banjarmasin</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2016</h6>
+              <p>Tata Niaga</p>
+              <hr>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Pengalaman Kerja</h3>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Lab Pendidikan Komputer ULM</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2023 - <span class="w3-tag w3-teal w3-round">Sekarang</span></h6>
+              <h6>Teknisi Lab</h6>
+              <ul type="circle">
+                <li>Asistensi admin program studi dan mengisi data kuantitatif pada borang akreditasi</li>
+                <li>Membuat dokumen dan melengkapi persyaratan administrasi untuk mengajukan Hak Kekayaan Intelektual produk</li>
+                <li>Menyortir dan mengarsip dokumen sesuai dengan prioritas untuk memudahkan dalam pengawasan secara rapi dan sistematis</li>
+                <li>Melakukan pengawasan peralatan laboratorium dan fasilitas yang menjadi tanggung jawab</li>
+                <li>Memeriksa, mencatat, menginventarisasi dan mengevaluasi peralatan, bahan dan lain-lain di laboratorium</li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-solid fa-users-line fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Pengalaman Organisasi</h3>
+              <div class="w3-container">
+              <h5 class="w3-opacity"><b>Himpunan Mahasiswa Pendidikan Komputer</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2019</h6>
+              <h6>Sekretaris Umum</h6>
+              <ul type="circle">
+                <li>Bertanggung jawab atas pelaksanaan administrasi (pengarsipan atau pendokumentasian, surat menyurat, proposal, dan laporan kegiatan)</li>
+                <li>Bertugas sebagai notulen rapat dan evaluasi kegiatan setiap rapat diadakan</li>
+                <li>Menyediakan daftar hadir dan membuat catatan-catatan rapat organisasi</li>
+                <li>Mengkoordinasi biro kesekretariatan dalam himpunan</li>
+                <li>Membuat laporan pertanggung jawaban akhir tahun kepengurusan Himpunan Mahasiswa Pendidikan Komputer</li>
+              </ul>
+              <hr>
+              </div>
+          </div>
+
+          <div class="mySlides">
+            <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Pengalaman Project</h3>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Project Pengembangan Media Interaktif Berbasis Web</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022</h6>
+              <h6>Anggota Project</h6>
+              <ul type="circle">
+                <li>Melakukan analisa pengembangan dengan melihat masalah yang ada</li>
+                <li>Melakukan desain yang tepat untuk pengembangan</li>
+                <li>Mengembangkan produk yang siap untuk diuji coba hingga didapat hasil akhir yang siap untuk  digunakan</li>
+              </ul>
+              <p><a onclick="HasilWeb()" style="cursor:pointer">Lihat Hasil</a></p>
+              <hr>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top round">
+  <p>Find me on social media.</p>
+  <a onclick="ig()" style="cursor:pointer"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a onclick="linkedin()" style="cursor:pointer"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</footer>
+<script src="code.js"></script>
+</body>
+</html>
