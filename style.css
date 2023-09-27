@@ -37,6 +37,10 @@ h1,h2,h3,h4,h5,h6,a{font-family: "CeraRoundPro-Regular",  Helvetica, Arial, sans
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 
+colorgroup{
+   color: #EDC7B7 #EEE2DC #BAB2B5 #123C69 #AC3B61 #7E685A #C2B9B0;
+}
+
 a {
     text-decoration: none;
   }
@@ -47,11 +51,11 @@ a {
     text-decoration: none;
   }
 
-p a{
+  p a{
     color: #757575;
     text-decoration: none;
   }
-
+  
   li a:hover, p a:hover, a:hover{
     color: #ac3b61;
   }
