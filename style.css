@@ -41,13 +41,18 @@ a {
     text-decoration: none;
   }
 
-  li a, p a{
+  li a{
     display: block;
     color: black;
     text-decoration: none;
   }
-  
-  li a:hover, p a:hover{
+
+p a{
+    color: #757575;
+    text-decoration: none;
+  }
+
+  li a:hover, p a:hover, a:hover{
     color: #ac3b61;
   }
 
