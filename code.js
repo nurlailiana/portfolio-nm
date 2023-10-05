@@ -33,6 +33,10 @@ function currentSlide(n) {
     window.open("https://drive.google.com/file/d/1l_a_vY1bMxgxp1HAbc60d76sAIc9Y0Cw/view?usp=drive_link");
   }
 
+  function msPP() {
+    window.open("https://drive.google.com/file/d/1snhZb4X__VbP42QNMin9yxjrpGwX_Bbr/view?usp=drive_link");
+  }
+
   function Canva() {
     window.open("https://drive.google.com/file/d/1wLY38Ldlrscre-7AXp6svdxKDdFCngYo/view?usp=drive_link");
   }
