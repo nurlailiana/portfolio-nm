@@ -30,6 +30,8 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]{-webkit-appearance:textfield;outline-offset:-2px}
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+::-moz-selection{background: #AC3B61; color: #fff;}
+::selection{background: #AC3B61; color: #fff;}
 /* End extract */
 html,body{font-family: "Cera Round Pro DEMO Medium", Helvetica, Arial, sans-serif;font-size:15px;line-height:23px}html{overflow-x:hidden}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
